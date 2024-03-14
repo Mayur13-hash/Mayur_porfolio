@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+
+*{
+    margin: 0;
+
+}
+main{
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    background-color: rgb(20, 20, 75);
+    color: white;
+}
+header nav{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(4, 4, 36);
+}
+nav ul{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    font-family: "Open Sans", sans-serif;
+    list-style: none;
+    padding: 27px;
+    margin-left: 34px;
+}
+main hr{
+    border: 0ch;
+    height: 1px;
+    width: 88vw;
+    margin-left: 92px;
+    background-color: rgb(46 46 106);
+}
+.left{
+    font-size: 2rem;
+}
+.fristsection{
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    align-items: center;
+}
+.fristsection > div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 2rem;
+    margin-left: 73px;
+    
+}
+.rightsection{
+    width: 34px;
+}
+.rightsection img{
+    width: 33vw;
+    margin-left: 45px;
+    margin-top: 69px;
+}
+.right ul a{
+ text-decoration: none;
+ color: white;
+ justify-content: space-evenly;
+}
+.right ul a :hover{
+    color:rgb(94, 94, 173); 
+    font-size: 1.1rem;
+}
+.purple{
+    color: rgb(156, 74, 234);
+}
+#element{
+    color: rgb(156, 74, 234);
+    
+}
+.buttons{
+    margin-top: 20px;
+}
+.btn{
+    background-color: rgb(156, 74, 234);
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 26px;
+    cursor: pointer;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 14vw;
+    margin-left: -83vw;
+    
+}
+.btn:hover{
+    background-color: white;
+    color:dodgerblue; ;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    font-size: 1.3rem;
+    margin-top: 28px;
+    height: 60vh;
+}
+
+.thirdsection{
+    max-width: 80vw;
+    margin: auto;
+    font-size: 1.3rem;
+    margin-top: 28px;
+    height: 40vh;
+}
+.text-gray{
+    color: gray;
+    font-size: 14px;
+    margin-left: 4px;
+}
+.box{
+    margin-top: 67px;
+    background-color: white;
+    height: 1px;
+    display: flex;
+}
+.vertical{
+    height: 10vh;
+    width: 1px;
+    background-color: white;
+    margin: 0 150px;
+}
+.vertical-title{
+    position: relative;
+    margin-top: -78px;
+    margin-left: 14px;
+}
+.vertical-text{
+    margin-top: 53px;
+    width: 120px;
+}
+.vertical-desc{
+    font-size: 13px;
+    width: 13vw;
+}
+.vertical-title-hsc{
+    position: relative;
+    margin-top: -60px;
+    margin-left: 14px;
+}
+
+.logo{
+    margin: 8px;
+    width: 66px;
+    margin-left: -18px;
+
+}
+footer{
+    font-size: 20px;
+    height: 25vh;
+    background-color:rgb(4, 4, 36);
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerdec{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 134px;
+    margin-top: 23px;
+
+}
+footer .footer-1{
+    width: 20vw;
+    margin-left: -19vw;
+}
+    
+footer .footer-2{
+    
+    margin-left: 10vw;
+}
+footer .footer-3{
+    margin-left: 8vw;
+}
+footer .footer-4{
+    margin-left: 110px;
+}
+footer .footer-4 a{
+    margin: 0 3px;
+    font-size: 30px;
+    
+}
+footer ul{
+    list-style: disc;
+
+}
+.linkedin{
+    width: 20px;
+    margin-left: 34vw;
+}
